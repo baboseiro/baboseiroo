@@ -1,95 +1,85 @@
 body {
     background: #FFFFFF;
-}
-
-header {
+  }
+  
+  header {
     text-align: center;
     position: relative;
     max-width: 480px;
     padding: 15px 0px;
     margin: 10px auto;
-}
-
-#logo-principal {
+  }
+  
+  #logo-principal {
     position: relative;
     width: 45%;
     height: 45%;
     clip-path: circle(50% at 50% 50%);
     margin: 10px;
-}
-
-#slogan {
-    font-size: 24px;
-    padding: 15px;
-}
-
-#nome{
+  }
+  
+  #nome {
     color: #F20B8D;
-}
-
-h1, h2, h3, h4, h5, h6 {
+    font-size: 48px;
+    padding: 15px;
+  }
+  
+  #slogan {
+    font-size: 24px;
+    padding: 5px;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
     font-family: 'Bebas Neue', serif;
     color: #2e2e2e;
-}
-
-p {
+  }
+  
+  p {
     font-family: 'Quicksand', sans-serif;
-    font-size: 14px;
-    color:#1f1f1f;
-}
-
-
-h2 {
+    font-size: 20px;
+    color: #1f1f1f;
+    margin: 5px;
+  }
+  
+  h2 {
     font-size: 48px;
     margin: 10px;
-}
-
-h3 {
+  }
+  
+  h3 {
     font-size: 28px;
     margin: 10px;
-}
-
-main {
+  }
+  
+  main {
     display: block;
-}
-
-ul {
+  }
+  
+  ul {
     text-align: center;
     max-width: 980px;
     margin: auto;
-}
-
-ul a {
-    max-width: 390px;
-    display: inline-block;
-    vertical-align: middle;
-    text-align: left;
-    position: relative;
+  }
+  
+  .block-button {
     box-sizing: border-box;
-    margin: 20px 20px;
+    max-width: 390px;
+    padding: 15px;
+    margin: 20px;
+  
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+  
+    text-align: left;
+    text-decoration: none;
+  
     border: 1px solid #1f1f1f;
     border-radius: 8px;
-    border-style:double;
-}
-
-ul a:hover {
-    background: #ffe1f2;
+  }
+  
+  .block-button:hover{
     border-color: #F20B8D;
-    border-width: 1px;
-    border-style:double;
-
-}
-
-.block-card {
-
-    padding: 15px;
-    text-decoration: none;
-
-}
-
-.block-card p {
-    font-size: 20px;
-    margin: 5px;
-}
-
-
+    box-shadow: 0 1px 2px #F20B8D15, 0 2px 4px #F20B8D15, 0 4px 8px #F20B8D15, 0 8px 16px #F20B8D15, 0 16px 32px #F20B8D15, 0 32px 64px #F20B8D15;
+    color: #F20B8D;
+  }
