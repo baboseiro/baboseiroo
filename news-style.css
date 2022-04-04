@@ -39,6 +39,7 @@ h2 {
 }
 
 p {
+    width: 100%
     font-family: 'Quicksand', sans-serif;
     font-size: 18px;
     color:#1f1f1f;
