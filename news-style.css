@@ -50,12 +50,17 @@ main {
     text-align: center;
 }
 
+form {
+    max-width: 480px;
+    margin: auto;
+    display: block;
+}
 
 form label {
     margin: 10px auto;
     display: block;
     color: #000000;
-    width: 350px;
+    width: 100%;
     padding: 15px 15px;
     box-sizing: border-box;
     border: 1px solid #000000;
@@ -78,18 +83,17 @@ form label input {
 
 .botao-form {
     margin: 10px auto;
-    width: 350px;
+    width: 100%;
     font-size: 25px;
     font-weight: bold;
     background: #F20B8D;
     padding: 15px 0;
     color: #FFFFFF;
-    border: 1px solid #81084d;
+    border: 1px solid #8c0a54;
     border-radius: 8px;
-    transition: 0.5s all;
+    box-shadow: 0 1px 2px #F20B8D15, 0 2px 4px #F20B8D15, 0 4px 8px #F20B8D15, 0 8px 16px #F20B8D15, 0 16px 32px #F20B8D15, 0 32px 64px #F20B8D15;
 }
 
 .botao-form:hover {
     background: #d40b7d;
-    border: 1px solid #66073d;
 }
